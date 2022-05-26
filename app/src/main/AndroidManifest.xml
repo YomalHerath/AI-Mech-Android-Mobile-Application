@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aimech">
+    <!-- permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AIMech">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/map_key" />
+
+        <activity android:name=".spare_part_shops.shop_details.SparePartShopListView" />
+        <activity android:name=".service_providers.service_center.ServiceCenterList" />
+        <activity android:name=".user.spare_part_shop.ShopView" />
+        <activity android:name=".user.service_reminders.UpdateReminders" />
+        <activity android:name=".service_providers.service_center.UpdateMechanicDetails" />
+        <activity android:name=".service_providers.service_center.AddMechanicDetails" />
+        <activity android:name=".user.spare_part_shop.ShopListView" />
+        <activity android:name=".user.service_provider.ServiceProviderListView" />
+        <activity android:name=".ai_chatbot.Chatbot" />
+        <activity android:name=".spare_part_shops.shop_owner_details.ShopProfile" />
+        <activity android:name=".spare_part_shops.shop_owner_details.ShopDashboard" />
+        <activity android:name=".spare_part_shops.shop_owner_details.ShopRegister" />
+        <activity android:name=".spare_part_shops.shop_owner_details.ShopLogin" />
+        <activity android:name=".spare_part_shops.shop_details.UpdateShopDetails" />
+        <activity android:name=".spare_part_shops.shop_details.AddShopDetails" />
+        <activity android:name=".user.driver_section.DriverListView" />
+        <activity android:name=".drivers.create_driver.UpdateDriverDetails" />
+        <activity android:name=".drivers.create_driver.AddDriverDetails" />
+        <activity android:name=".drivers.driver_details.DriverProfile" />
+        <activity android:name=".drivers.driver_details.DriverRegister" />
+        <activity android:name=".drivers.driver_details.DriverLogin" />
+        <activity android:name=".drivers.driver_details.DriverDashboard" />
+        <activity android:name=".faq_chat.FaqSection" />
+        <activity android:name=".service_providers.service_provider_details.ServiceProviderProfile" />
+        <activity android:name=".service_providers.service_provider_details.ServiceProviderLogin" />
+        <activity android:name=".service_providers.service_provider_details.ServiceProviderRegister" />
+        <activity android:name=".service_providers.service_provider_details.ServiceProviderDashboard" />
+        <activity android:name=".user.service_reminders.AddServiceReminders" />
+        <activity android:name=".user.service_reminders.VehicleServices" />
+        <activity android:name=".user.user_detail.UserProfile" />
+        <activity android:name=".user.user_detail.UserDashboard" />
+        <activity android:name=".user.user_detail.UserRegister" />
+        <activity android:name=".user.user_detail.UserLogin" />
+        <activity android:name=".common.SelectionScreen" />
+        <activity android:name=".common.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <receiver android:name=".user.service_reminders.ReminderBroadcastReceiver" />
+    </application>
+
+</manifest>

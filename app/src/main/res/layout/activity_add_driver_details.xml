@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".drivers.create_driver.AddDriverDetails">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:background="@drawable/driver_view">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/shade_white_card" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/back_btn"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/custom_conner_yellow_card"
+                        android:padding="18dp"
+                        android:src="@drawable/ic_baseline_arrow_white_back_24" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="280dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentLeft="true"
+                        android:fontFamily="@font/coiny"
+                        android:gravity="bottom"
+                        android:paddingLeft="20dp"
+                        android:shadowColor="@color/white"
+                        android:shadowRadius="50"
+                        android:text="@string/add_driver"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="28sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="40dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/driver_full_name"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/driver_full_name"
+                app:boxStrokeColor="@color/colorPrimaryVariant"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/colorPrimaryVariant"
+                app:hintTextColor="@color/colorPrimaryVariant"
+                app:startIconDrawable="@drawable/ic_baseline_person_24"
+                app:startIconTint="@color/colorPrimaryVariant">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:inputType="text"
+                    android:textColor="@color/black" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/driver_address"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_address"
+                app:boxStrokeColor="@color/colorPrimaryVariant"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/colorPrimaryVariant"
+                app:hintTextColor="@color/colorPrimaryVariant"
+                app:startIconDrawable="@drawable/ic_baseline_add_location_alt_24"
+                app:startIconTint="@color/colorPrimaryVariant">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:inputType="text"
+                    android:textColor="@color/black" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/driver_city"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_city"
+                app:boxStrokeColor="@color/colorPrimaryVariant"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/colorPrimaryVariant"
+                app:hintTextColor="@color/colorPrimaryVariant"
+                app:startIconDrawable="@drawable/ic_baseline_location_city_24"
+                app:startIconTint="@color/colorPrimaryVariant">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:inputType="text"
+                    android:textColor="@color/black" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/driver_phone_no"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/driver_contact"
+                app:boxStrokeColor="@color/colorPrimaryVariant"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/colorPrimaryVariant"
+                app:hintTextColor="@color/colorPrimaryVariant"
+                app:startIconDrawable="@drawable/ic_baseline_local_phone_24"
+                app:startIconTint="@color/colorPrimaryVariant">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:inputType="number"
+                    android:textColor="@color/black" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/driver_email"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/driver_email"
+                app:boxStrokeColor="@color/colorPrimaryVariant"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/colorPrimaryVariant"
+                app:hintTextColor="@color/colorPrimaryVariant"
+                app:startIconDrawable="@drawable/ic_baseline_email_24"
+                app:startIconTint="@color/colorPrimaryVariant">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/black" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/driver_birth_year"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_dob"
+                app:boxStrokeColor="@color/colorPrimaryVariant"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/colorPrimaryVariant"
+                app:hintTextColor="@color/colorPrimaryVariant"
+                app:startIconDrawable="@drawable/ic_baseline_date_range_24"
+                app:startIconTint="@color/colorPrimaryVariant">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:inputType="number"
+                    android:textColor="@color/black" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/driver_license"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_license_number"
+                app:boxStrokeColor="@color/colorPrimaryVariant"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/colorPrimaryVariant"
+                app:hintTextColor="@color/colorPrimaryVariant"
+                app:startIconDrawable="@drawable/ic_baseline_credit_card_24"
+                app:startIconTint="@color/colorPrimaryVariant">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:inputType="text"
+                    android:textColor="@color/black" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/save_driver_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button"
+                android:fontFamily="sans-serif"
+                android:text="@string/save"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

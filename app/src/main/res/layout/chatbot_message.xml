@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/ai_msg_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/ai_send_msg_view"
+        android:minHeight="50dp"
+        android:padding="10dp"
+        android:textColor="@color/light_blue"
+        android:textSize="16sp"
+        android:text="This is text message"  />
+
+    <TextView
+        android:id="@+id/ai_msg_receive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/ai_receive_msg_view"
+        android:minHeight="50dp"
+        android:padding="10dp"
+        android:textColor="@color/light_green"
+        android:textSize="16sp"
+        android:text="This is text message" />
+
+</LinearLayout>

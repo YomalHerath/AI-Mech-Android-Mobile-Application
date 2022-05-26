@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "53052487666",
+    "project_id": "ai-mech",
+    "storage_bucket": "ai-mech.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53052487666:android:5dfeee52bfe23549519d6b",
+        "android_client_info": {
+          "package_name": "com.example.aimech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53052487666-s4f9qh6h36q74ua45usjl68kir1vmcr7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZvmiAF3trRazXO3Dxe4xwgGO79UM80Dw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "53052487666-s4f9qh6h36q74ua45usjl68kir1vmcr7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

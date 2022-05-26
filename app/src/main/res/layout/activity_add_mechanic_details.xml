@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".service_providers.service_center.AddMechanicDetails">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/vehicle_service">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/shade_white_card" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/back_btn"
+                        android:layout_width="60dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/custom_conner_purple_card"
+                        android:padding="18dp"
+                        android:src="@drawable/ic_baseline_arrow_white_back_24" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="280dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentLeft="true"
+                        android:fontFamily="@font/coiny"
+                        android:gravity="bottom"
+                        android:paddingLeft="20dp"
+                        android:shadowColor="@color/white"
+                        android:shadowRadius="50"
+                        android:text="@string/add_mechanic_detail"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="28sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toRightOf="@+id/back_btn"
+            android:padding="40dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/service_center_name"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/add_service_center_name"
+                app:boxStrokeColor="@color/colorPrimaryVariant"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/colorPrimaryVariant"
+                app:hintTextColor="@color/colorPrimaryVariant"
+                app:startIconDrawable="@drawable/ic_baseline_add_business_24"
+                app:startIconTint="@color/colorPrimaryVariant">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:inputType="text"
+                    android:textColor="@color/black" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/service_center_address"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/add_service_center_address"
+                app:boxStrokeColor="@color/colorPrimaryVariant"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/colorPrimaryVariant"
+                app:hintTextColor="@color/colorPrimaryVariant"
+                app:startIconDrawable="@drawable/ic_baseline_location_city_24"
+                app:startIconTint="@color/colorPrimaryVariant">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:inputType="text"
+                    android:textColor="@color/black" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/service_center_city"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/add_service_center_located"
+                app:boxStrokeColor="@color/colorPrimaryVariant"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/colorPrimaryVariant"
+                app:hintTextColor="@color/colorPrimaryVariant"
+                app:startIconDrawable="@drawable/ic_baseline_location_city_24"
+                app:startIconTint="@color/colorPrimaryVariant">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:inputType="text"
+                    android:textColor="@color/black" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/provider_name"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/add_provider_name"
+                app:boxStrokeColor="@color/colorPrimaryVariant"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/colorPrimaryVariant"
+                app:hintTextColor="@color/colorPrimaryVariant"
+                app:startIconDrawable="@drawable/ic_baseline_person_24"
+                app:startIconTint="@color/colorPrimaryVariant">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:inputType="text"
+                    android:textColor="@color/black" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/provider_contact_no"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/add_provider_contact"
+                app:boxStrokeColor="@color/colorPrimaryVariant"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/colorPrimaryVariant"
+                app:hintTextColor="@color/colorPrimaryVariant"
+                app:startIconDrawable="@drawable/ic_baseline_local_phone_24"
+                app:startIconTint="@color/colorPrimaryVariant">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:inputType="phone"
+                    android:textColor="@color/black" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/provider_email"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/add_provider_email"
+                app:boxStrokeColor="@color/colorPrimaryVariant"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/colorPrimaryVariant"
+                app:hintTextColor="@color/colorPrimaryVariant"
+                app:startIconDrawable="@drawable/ic_baseline_email_24"
+                app:startIconTint="@color/colorPrimaryVariant">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/black" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/service_center_detail"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/add_service_center_details"
+                app:boxStrokeColor="@color/colorPrimaryVariant"
+                app:boxStrokeWidthFocused="2dp"
+                app:endIconMode="clear_text"
+                app:endIconTint="@color/colorPrimaryVariant"
+                app:hintTextColor="@color/colorPrimaryVariant"
+                app:startIconDrawable="@drawable/ic_baseline_add_business_24"
+                app:startIconTint="@color/colorPrimaryVariant">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:inputType="textMultiLine"
+                    android:textColor="@color/black" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/save_provider_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button"
+                android:fontFamily="sans-serif"
+                android:text="@string/save"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

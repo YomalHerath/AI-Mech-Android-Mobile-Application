@@ -1,0 +1,2 @@
+rootProject.name = "AI Mech"
+include ':app'

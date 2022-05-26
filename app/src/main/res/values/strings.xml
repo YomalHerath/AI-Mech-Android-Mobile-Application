@@ -1,0 +1,200 @@
+<resources>
+
+    <string name="app_name">AI Mech</string>
+    <string name="powered_by">Powered By Yomal Herath</string>
+    <string name="app_desc">On-Road Vehicle Breakdown Assistant with AI Chatbot</string>
+    <string name="user">Users</string>
+    <string name="service_provider">Service Providers</string>
+    <string name="shops">Spare-Part Shops</string>
+    <string name="drivers">Drivers</string>
+    <string name="welcome_text_user_login">Already have a account?</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="new_user_sign_up">New User? <b>Register here</b></string>
+    <string name="sign_in">Sign In</string>
+    <string name="email">Enter Email</string>
+    <string name="password">Enter Password</string>
+    <string name="user_register_text">Here\'s your first step with us!</string>
+    <string name="full_name">Enter Full Name</string>
+    <string name="username">Enter Username</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="phone_no">Enter Mobile No</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_a_account">Already Have A Account? <b>Login here</b></string>
+    <string name="vehicle">My Vehicle</string>
+    <string name="helper">AI Assistant</string>
+
+    <string name="otp">Enter OTP</string>
+    <string name="otp_text">We have sent you an OTP for phone number verification</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="otp_resend">Didn\'t get OTP code?<b>Resend</b></string>
+
+    <string name="account_info">Account Info</string>
+    <string name="account_full_name">Name</string>
+    <string name="account_username">Username</string>
+    <string name="account_email">Email</string>
+    <string name="account_phone_no">Mobile No</string>
+    <string name="enter_user_type">Select User Type</string>
+    <string-array name="user_type">
+        <item>User</item>
+        <item>Service_Provider</item>
+        <item>Spare_Part_Shop</item>
+    </string-array>
+
+    <string name="my_service">Service Reminders</string>
+    <string name="set_new_reminder">Set New Reminder</string>
+    <string name="update_reminder">Edit Reminder</string>
+    <string name="set_reminder">Set Reminder</string>
+    <string name="enter_reminder_text">Enter Reminder Text</string>
+    <string name="mileage_to_reminder">Enter Mileage to Reminder</string>
+    <string name="reminder_date">Set Reminder Date</string>
+    <string name="reminder_time">Set Reminder Time</string>
+    <string name="additional_text">Enter Additional Text</string>
+    <string-array name="reminder_text">
+        <item>Oil with Filter</item>
+        <item>Periodical Maintenance</item>
+        <item>Tire Change</item>
+        <item>Air Conditioning Filter</item>
+        <item>Brake Fluid</item>
+        <item>Engine Air Filter</item>
+        <item>Insurance</item>
+        <item>Other Service</item>
+        <item>Other Document</item>
+    </string-array>
+
+    <string name="edit_vehicle">Edit Vehicle Details</string>
+    <string name="edit">Update</string>
+
+    <string name="add_vehicle">Add Vehicle Details</string>
+    <string name="view_vehicle">View My Vehicles</string>
+    <string name="car_brand">Select Brand</string>
+    <string name="car_model">Enter Model</string>
+    <string name="car_manu_year">Enter Manufacture Year</string>
+    <string name="car_reg_year">Enter Register Year</string>
+    <string name="car_mileage">Enter Mileage</string>
+    <string name="submit">Submit</string>
+    <string name="reg_year">Register Year</string>
+    <string name="manu_year">Manufacture Year</string>
+    <string name="mileage">Mileage</string>
+    <string-array name="car_brand">
+        <item>Toyota</item>
+        <item>Suzuki</item>
+        <item>Nissan</item>
+        <item>Honda</item>
+        <item>Mitsubishi</item>
+        <item>Mercedes Benz</item>
+        <item>BMW</item>
+        <item>Micro</item>
+        <item>Daihatsu</item>
+        <item>Hyundai</item>
+        <item>Kia</item>
+        <item>Mazda</item>
+        <item>Audi</item>
+        <item>Land Rover</item>
+        <item>Tata</item>
+        <item>Peugeot</item>
+        <item>Perodua</item>
+        <item>Ford</item>
+        <item>Renault</item>
+        <item>Volkswagen</item>
+        <item>Jaguar</item>
+        <item>Chery</item>
+        <item>Mini</item>
+        <item>Isuzu</item>
+        <item>Subaru</item>
+        <item>Austin</item>
+        <item>MG</item>
+        <item>Ssang Yong</item>
+        <item>Datsun</item>
+        <item>Volvo</item>
+        <item>Lexus</item>
+        <item>Chrysler</item>
+        <item>Chevrolet</item>
+        <item>Fiat</item>
+        <item>Jeep</item>
+        <item>Proton</item>
+        <item>Daewoo</item>
+        <item>Porsche</item>
+        <item>Alfa Romeo</item>
+        <item>Hummer</item>
+    </string-array>
+
+    <string name="service_center_name">Enter Service Center Name</string>
+    <string name="service_FAQ">FAQ Section</string>
+    <string name="add_service_center">Service Center Details</string>
+
+    <string name="add_driver_details">Driver Details</string>
+    <string name="add_driver">Add Driver Details</string>
+    <string name="update_driver">Update Driver Details</string>
+    <string name="enter_address">Driver\'s Address</string>
+    <string name="enter_city">Driver Living City</string>
+    <string name="enter_dob">Driver\'s Birth Year</string>
+    <string name="driver_full_name">Driver\'s Full Number</string>
+    <string name="driver_email">Driver\'s Email</string>
+    <string name="driver_contact">Driver\'s Contact Number</string>
+    <string name="enter_license_number">Driver\'s License Number</string>
+    <string name="login">Login</string>
+    <string name="create_account">Create Account</string>
+    <string name="driver_list">Find Drivers</string>
+    <string name="search">Search with Nearest City...</string>
+    <string name="enter_message">Start typing...</string>
+
+    <string name="map_key" translatable="false">AIzaSyCofF_IN33hScHkiRmFZIOx6iFXmCWLxkc</string>
+
+    <string name="add_shop_detail">Add Spare Part Shop Details</string>
+    <string name="update_shop_details">Update Spare Part Shop Details</string>
+    <string name="spare_part_shop">Spare Part Shop Details</string>
+    <string name="enter_shop_name">Shop Name</string>
+    <string name="enter_shop_address">Shop Address</string>
+    <string name="enter_shop_details">Shop Details</string>
+    <string name="enter_open_time">Shop Open Time</string>
+    <string name="enter_shop_close_time">Shop Close Time</string>
+    <string name="enter_contact_person">Contact Person</string>
+    <string name="enter_contact_number">Contact Number</string>
+    <string name="enter_email">Email Address</string>
+    <string name="enter_shop_city">Shop Located City</string>
+    <string name="shop_open">Shop Opening Time</string>
+    <string name="shop_close">Shop Closing Time</string>
+    <string name="save">Save</string>
+    <string name="update">Update</string>
+
+    <string name="add_mechanic_detail">Add Service Provider Details</string>
+    <string name="update_mechanic_detail">Update Service Provider Details</string>
+    <string name="add_provider_name">Service Provider Name</string>
+    <string name="add_service_center_address">Service Center Address</string>
+    <string name="add_provider_contact">Service Provider Contact No</string>
+    <string name="add_provider_email">Service Provider Email</string>
+    <string name="add_service_center_details">Service Center Details</string>
+    <string name="add_service_center_name">Service Center Name</string>
+    <string name="add_service_center_located">Service Center Located City</string>
+    <string name="service_providers">Service Providers Details</string>
+
+    <string name="name">Name</string>
+    <string name="address">Address</string>
+    <string name="city">City</string>
+    <string name="mobile_no">Mobile No</string>
+    <string name="email_address">Email</string>
+    <string name="b_year">Birth Year</string>
+    <string name="license">License No</string>
+    <string name="remove">Remove</string>
+    <string name="shop_details">Shop Details</string>
+    <string name="contact_no">Contact No</string>
+    <string name="find_shops">Find Spare Part Shop</string>
+    <string name="find_service_provider">Find Service Providers</string>
+
+    <string name="welcome_driver">Welcome to Driver Dashboard</string>
+    <string name="welcome_provider">Welcome to Service Provider Dashboard</string>
+    <string name="welcome_user">Welcome to User Dashboard</string>
+    <string name="welcome_shop">Welcome to Spare Part Shop Owner Dashboard</string>
+
+    <string name="home">Home</string>
+    <string name="logout">Logout</string>
+    <string-array name="times">
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+    </string-array>
+    <string name="time_before_reminder">Reminder Time</string>
+
+</resources>
